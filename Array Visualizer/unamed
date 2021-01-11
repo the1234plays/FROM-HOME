@@ -1,0 +1,12 @@
+//Modify the Array...
+    for (let i = 0; i < myData.length; i++) {
+        if (myData[i] < 400) {
+            myData[i] += 10;
+        }
+
+
+    }
+
+    //Redraw the Array
+    drawArray();
+}
